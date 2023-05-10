@@ -1,0 +1,988 @@
+/* screen - goalkeeper */
+
+.goalkeeper {
+    align-items: center;
+    background-color: #24293d;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* height: 1778px; */
+    padding: 38.8px 0;
+    max-width: 1680px;
+  }
+  
+  .goalkeeper .player-container {
+    background-color: var(--mirage);
+    margin-top: 1px;
+    position: relative;
+    width: 1200px;
+  }
+  
+  .goalkeeper .header-1 {
+    align-items: center;
+    background-image: url(https://dualnationals.com/wp-content/themes/Dual-Nationals/assets/img/header-background.png);
+    background-size: 100% 100%;
+    display: flex;
+    height: 146px;
+    min-width: 1220px;
+    padding: 0 24px;
+  }
+  
+  .goalkeeper .frame-34728 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 24px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .name {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+  }
+  
+  .goalkeeper .number {
+    line-height: normal;
+    margin-top: -1px;
+  }
+  
+  .goalkeeper .frame-34731 {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .frame-34731-item {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .group-41 {
+    background-image: url(../img/mask-group@2x.png);
+    background-size: 100% 100%;
+    height: 38px;
+    left: 4px;
+    position: relative;
+    top: 4px;
+    width: 38px;
+  }
+  
+  .goalkeeper .arsenal {
+    line-height: normal;
+    margin-top: -1px;
+  }
+  
+  .goalkeeper .goalkeeper-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .competition-logo-1 {
+    background-color: white;
+    border-radius: 8px;
+    height: 46px;
+    min-width: 46px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .goalkeeper .image-98 {
+    height: 38px;
+    left: 8px;
+    object-fit: cover;
+    position: absolute;
+    top: 4px;
+    width: 31px;
+  }
+  
+  .goalkeeper .premier-league {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .x5m {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .date {
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .goalkeeper .flex-col-1 {
+    align-items: flex-end;
+    gap: 32px;
+    margin-bottom: 2px;
+    margin-left: 167px;
+    min-height: 96px;
+    width: 200px;
+  }
+  
+  .goalkeeper .icon-share {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+  }
+  
+  .goalkeeper .icon-heart {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+  }
+  
+  .goalkeeper .player-info {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 24px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .player-info-1 {
+    flex: 1;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .goalkeeper .data-2 {
+    height: 46px;
+    min-width: 1152px;
+    position: relative;
+  }
+  
+  .goalkeeper .birth {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .goalkeeper .birth-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+  }
+  
+  .goalkeeper .age {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 76px;
+  }
+  
+  .goalkeeper .age-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+  }
+  
+  .goalkeeper .flag-square {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+  }
+  
+  .goalkeeper .surname {
+    letter-spacing: -0.16px;
+    line-height: normal;
+    margin-top: -1px;
+    text-shadow: 0px 4px 8px #0000001f;
+  }
+  
+  .goalkeeper .position {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 44px;
+  }
+  
+  .goalkeeper .position-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+  }
+  
+  .goalkeeper .nationality {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+  }
+  
+  .goalkeeper .nationality-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .goalkeeper .flag-square-1 {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+  }
+  
+  .goalkeeper .place {
+    letter-spacing: -0.16px;
+    text-shadow: 0px 4px 8px #0000001f;
+  }
+  
+  .goalkeeper .debut-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .intl-goals {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 4px;
+    opacity: 0;
+    position: relative;
+  }
+  
+  .goalkeeper .lithuania-lt {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+  }
+  
+  .goalkeeper .lithuania {
+    letter-spacing: -0.16px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-shadow: 0px 4px 8px #0000001f;
+    width: fit-content;
+  }
+  
+  .goalkeeper .plus-circle-2 {
+    margin-left: -7026px;
+    margin-top: -136px;
+  }
+  
+  .goalkeeper .name-3 {
+    letter-spacing: -0.16px;
+    line-height: normal;
+    margin-top: -1px;
+    text-shadow: 0px 4px 8px #0000001f;
+  }
+  
+  .goalkeeper .place-1 {
+    letter-spacing: 0;
+  }
+  
+  .goalkeeper .text-1 {
+    letter-spacing: -0.16px;
+    line-height: normal;
+    margin-top: -1px;
+    text-shadow: 0px 4px 8px #0000001f;
+  }
+  
+  .goalkeeper .current-season {
+    align-items: flex-start;
+    background-color: var(--mirage);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 0.07px;
+    padding: 24px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .header-2 {
+    height: 33px;
+    min-width: 1151.93px;
+    position: relative;
+  }
+  
+  .goalkeeper .group-41-1 {
+    background-image: url(../img/mask-group-1@2x.png);
+    height: 28px;
+    left: 3px;
+    top: 3px;
+    width: 28px;
+  }
+  
+  .goalkeeper .frame-87 {
+    align-items: center;
+    display: flex;
+    gap: 32px;
+    left: 512px;
+    position: absolute;
+    top: 6px;
+    width: fit-content;
+  }
+  
+  .goalkeeper .cleansheets {
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-right: -12px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .goalkeeper .color {
+    margin-right: -3px;
+  }
+  
+  .goalkeeper .line-63 {
+    height: 1px;
+    margin-left: -6003.93px;
+    margin-top: -377px;
+    min-width: 12px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .goalkeeper .data-1 {
+    height: 48px;
+    min-width: 1151.93px;
+    position: relative;
+  }
+  
+  .goalkeeper .competition-logo {
+    background-color: white;
+    border-radius: 8px;
+    height: 48px;
+    min-width: 48px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .goalkeeper .image-9 {
+    height: 40px;
+    left: 10px;
+    object-fit: cover;
+    position: absolute;
+    top: 4px;
+    width: 28px;
+  }
+  
+  .goalkeeper .europa-league {
+    letter-spacing: 0;
+    line-height: 20px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .goalkeeper .icon-cleansheet {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+  }
+  
+  .goalkeeper .icon-goals-against {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+  }
+  
+  .goalkeeper .overlap-group-1 {
+    height: 23px;
+    left: 1px;
+    position: relative;
+    width: 23px;
+  }
+  
+  .goalkeeper .vector {
+    height: 22px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 22px;
+  }
+  
+  .goalkeeper .ellipse-156 {
+    background-color: var(--mirage);
+    border-radius: 6px;
+    height: 12px;
+    left: 11px;
+    position: absolute;
+    top: 11px;
+    width: 12px;
+  }
+  
+  .goalkeeper .icon-substitute-out {
+    height: 12px;
+    left: 11px;
+    position: absolute;
+    top: 11px;
+    width: 12px;
+  }
+  
+  .goalkeeper .text-2 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-3 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-4 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .line-63-1 {
+    margin-left: -6003.93px;
+    margin-top: -426px;
+  }
+  
+  .goalkeeper .line-68 {
+    align-self: stretch;
+    height: 1px;
+    min-width: 1151.93px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .goalkeeper .image-98-1 {
+    height: 44px;
+    top: 2px;
+  }
+  
+  .goalkeeper .fa-cup {
+    letter-spacing: 0;
+    line-height: 20px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .goalkeeper .text-5 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-6 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-7 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .line-63-2 {
+    margin-left: -6003.93px;
+    margin-top: -506px;
+  }
+  
+  .goalkeeper .line-6 {
+    align-self: stretch;
+    height: 1px;
+    min-width: 1151.93px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .goalkeeper .image-98-2 {
+    height: 40px;
+    top: 4px;
+  }
+  
+  .goalkeeper .premier-league-1 {
+    letter-spacing: 0;
+    line-height: 20px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .goalkeeper .text-8 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-9 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-10 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .line-63-3 {
+    margin-left: -6003.93px;
+    margin-top: -586px;
+  }
+  
+  .goalkeeper .efl-cup {
+    letter-spacing: 0;
+    line-height: 20px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .goalkeeper .text-11 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-12 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-13 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .line-63-4 {
+    margin-left: -6003.93px;
+    margin-top: -666px;
+  }
+  
+  .goalkeeper .frame-34366 {
+    align-items: flex-start;
+    background-color: var(--mirage);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    position: relative;
+    width: 1200px;
+  }
+  
+  .goalkeeper .header {
+    height: 33px;
+    margin-right: -1.93px;
+    min-width: 1153.93px;
+    position: relative;
+  }
+  
+  .goalkeeper .frame-8 {
+    align-items: center;
+    display: flex;
+    gap: 32px;
+    left: 520px;
+    position: absolute;
+    top: 7px;
+    width: fit-content;
+  }
+  
+  .goalkeeper .frame-3417-1 {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    position: relative;
+    width: 120px;
+  }
+  
+  .goalkeeper .line-63-5 {
+    margin-left: -6019.93px;
+    margin-top: -779px;
+  }
+  
+  .goalkeeper .club-logo-2 {
+    height: 48px;
+    min-width: 48px;
+    position: relative;
+  }
+  
+  .goalkeeper .group-41-2 {
+    background-image: url(../img/mask-group-2@2x.png);
+    height: 40px;
+    left: 4px;
+    top: 4px;
+    width: 40px;
+  }
+  
+  .goalkeeper .arsenal-1 {
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-14 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .line-63-6 {
+    margin-left: -6019.93px;
+    margin-top: -831px;
+  }
+  
+  .goalkeeper .line-6-1 {
+    align-self: stretch;
+    height: 1px;
+    min-width: 1152px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .goalkeeper .data-3 {
+    height: 47.16px;
+    min-width: 1151.93px;
+    position: relative;
+  }
+  
+  .goalkeeper .image-300 {
+    height: 47.16px;
+    min-width: 48px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .goalkeeper .surname-1 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-15 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .line-63-7 {
+    margin-left: -6019.93px;
+    margin-top: -911px;
+  }
+  
+  .goalkeeper .image-301 {
+    height: 48px;
+    min-width: 48px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .goalkeeper .new-england-revolution {
+    letter-spacing: 0;
+    line-height: 20px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .goalkeeper .text-16 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .line-63-8 {
+    margin-left: -6019.93px;
+    margin-top: -990px;
+  }
+  
+  .goalkeeper .debut-2 {
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .goalkeeper .line-63-9 {
+    margin-left: -6019.93px;
+    margin-top: -1099.16px;
+  }
+  
+  .goalkeeper .flag-square-2 {
+    height: 48px;
+    min-width: 48px;
+    position: relative;
+  }
+  
+  .goalkeeper .number-23 {
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .number-24 {
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .number-25 {
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-17 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .line-63-10 {
+    margin-left: -6019.93px;
+    margin-top: -1151.16px;
+  }
+  
+  .goalkeeper .flag-square-3 {
+    height: 48px;
+    min-width: 48px;
+    position: relative;
+  }
+  
+  .goalkeeper .number-26 {
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .number-27 {
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .number-28 {
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-18 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .line-63-11 {
+    margin-left: -6019.93px;
+    margin-top: -1231.16px;
+  }
+  
+  .goalkeeper .flag-square-4 {
+    height: 48px;
+    min-width: 48px;
+    position: relative;
+  }
+  
+  .goalkeeper .date-8 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .number-29 {
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .number-30 {
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .number-31 {
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .text-19 {
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .goalkeeper .line-63-12 {
+    margin-left: -6019.93px;
+    margin-top: -1311.16px;
+  }
+  
+  .goalkeeper .add-3 {
+    letter-spacing: -0.16px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-shadow: 0px 4px 8px #0000001f;
+    width: fit-content;
+  }
+  
+  .goalkeeper .address-2 {
+    letter-spacing: -0.16px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-shadow: 0px 4px 8px #0000001f;
+    width: fit-content;
+  }
+  
+  .goalkeeper .age-2 {
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .arsenal-2 {
+    letter-spacing: 0;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .birth-2 {
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .color-2 {
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .goalkeeper .conceded-3 {
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .goalkeeper .date-9 {
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .frame-34153-8 {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .group-41-3 {
+    background-size: 100% 100%;
+    position: relative;
+  }
+  
+  .goalkeeper .icon-cleansheet-10 {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+  }
+  
+  .goalkeeper .icon-goals-against-10 {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+  }
+  
+  .goalkeeper .image-98-3 {
+    left: 8px;
+    object-fit: cover;
+    position: absolute;
+    width: 32px;
+  }
+  
+  .goalkeeper .line-63-13 {
+    height: 1px;
+    min-width: 12px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .goalkeeper .material-symbolstimer-outline-rounded-10 {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+  }
+  
+  .goalkeeper .name-4 {
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .nationality-2 {
+    flex: 1;
+    position: relative;
+  }
+  
+  .goalkeeper .number-32 {
+    letter-spacing: 0;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .place-2 {
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .plus-circle-3 {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+  }
+  
+  .goalkeeper .position-2 {
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .surname-2 {
+    position: relative;
+    width: fit-content;
+  }
+  
+  .goalkeeper .united-states {
+    letter-spacing: 0;
+    line-height: 20px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  

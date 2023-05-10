@@ -1,0 +1,1227 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/5f15a681e03e49c54e2b31a1.5f15a6c89313acc53c4fb558.cAeEbq9.hcp.png");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  /* min-height: 625px; */
+}
+
+.player-photo {
+  align-items: flex-start;
+  background-color: #2d2e31;
+  border-radius: 8px;
+  display: flex;
+  overflow: hidden;
+  width: 98px;
+}
+
+.image-290 {
+  height: 98px;
+  object-fit: cover;
+  width: 98px;
+}
+
+.name-1 {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+}
+
+.name-2 {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+}
+
+.material-symbolsverified-rounded {
+  height: 20px;
+  min-width: 20px;
+  position: relative;
+}
+
+.line-103 {
+  height: 24px;
+  min-width: 1px;
+  object-fit: cover;
+  position: relative;
+}
+
+.jersey {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.jersey-1 {
+  background-image: url(../img/union-23.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  min-width: 16px;
+  position: relative;
+}
+
+.club-logo {
+  height: 46px;
+  min-width: 46px;
+  position: relative;
+}
+
+.frame-34481 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-34 {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-34727 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+}
+
+.first-tier {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.line-103-1 {
+  height: 46px;
+  min-width: 1px;
+  object-fit: cover;
+  position: relative;
+}
+
+.market-value {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.contract-expiration {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.actions {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.more {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.claim {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 999px;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  padding: 8px 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.claim-this-profile {
+  color: var(--mirage);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-shadow: 0px 4px 8px #0000001f;
+  width: fit-content;
+}
+
+.arrow-right {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.x-info {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 5px;
+  position: relative;
+}
+
+.edit-2 {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 46px;
+  min-width: 963px;
+}
+
+.frame-344 {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  position: relative;
+  width: fit-content;
+}
+
+.date-1 {
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.number-1 {
+  line-height: normal;
+  margin-top: -1px;
+}
+
+.flex-row-item {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 40px;
+  position: relative;
+  width: fit-content;
+}
+
+.height {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.x186-m {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-shadow: 0px 4px 8px #0000001f;
+  width: fit-content;
+}
+
+.place-of-birth {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-34733 {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.right-winger {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.centre-forward {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.second-striker {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.line-10 {
+  height: 1px;
+  margin-top: 23px;
+  object-fit: cover;
+  width: 1220px;
+}
+
+.flex-col-item {
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.data {
+  align-items: flex-start;
+  display: flex;
+  gap: 40px;
+  position: relative;
+  width: 1152px;
+}
+
+.nationality-national-team {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.debut {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.date-2 {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  text-shadow: 0px 4px 8px #0000001f;
+}
+
+.caps {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.caps-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.international-goals {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.line-67 {
+  align-self: stretch;
+  height: 1px;
+  min-width: 1152px;
+  object-fit: cover;
+  position: relative;
+}
+
+.x2nd-nationality {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.x2nd-nationality-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.x3rd-nationality {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.x3rd-nationality-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.plus-circle {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.x4th-nationality {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.frame-34453 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  opacity: 0;
+  position: relative;
+}
+
+.edit-2-1 {
+  height: 24px;
+  left: 1128px;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.agent-info {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+}
+
+.edit-2-2 {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.agent-name {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.agent-name-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.agency {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.star-rosario-agency {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-shadow: 0px 4px 8px #0000001f;
+  width: fit-content;
+}
+
+.agent-phone {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.agent-phone-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.agent-email {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.agent-email-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.jorgemendesgmailcom {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-shadow: 0px 4px 8px #0000001f;
+  width: fit-content;
+}
+
+.frame-34737 {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: fit-content;
+}
+
+.club-logo-1 {
+  height: 33px;
+  min-width: 33px;
+  position: relative;
+}
+
+.current-season-stats {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-341 {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 88px;
+}
+
+.min-played {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-right: -2px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-3417 {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 48px;
+}
+
+.frame-34361 {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 297px;
+}
+
+.frame {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+  left: 512px;
+  position: absolute;
+  top: 8px;
+  width: fit-content;
+}
+
+.icon {
+  height: 26px;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  margin-top: -1px;
+  min-width: 26px;
+  position: relative;
+}
+
+.overlap-group {
+  background-color: var(--silver-tree);
+  border-radius: 3px;
+  height: 20px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  width: 20px;
+}
+
+.rectangle-541 {
+  background-color: var(--silver-tree);
+  border-radius: 3px;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.union {
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.number-2 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-3 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-4 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.material-symbolstimer-outline-rounded {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.frame-34153 {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.rectangle-520 {
+  background-color: var(--corn);
+  border-radius: 2px;
+  height: 18px;
+  left: 6px;
+  position: relative;
+  top: 3px;
+  width: 12px;
+}
+
+.rectangle-520-1 {
+  background-color: var(--cinnabar);
+  border-radius: 2px;
+  height: 18px;
+  left: 6px;
+  position: relative;
+  top: 3px;
+  width: 12px;
+}
+
+.number-5 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-6 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-7 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-8 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-9 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-10 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-11 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-12 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-13 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.x-history {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.join-date {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-1 {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+  left: 520px;
+  position: absolute;
+  top: 12px;
+  width: fit-content;
+}
+
+.date-3 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-14 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-15 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-16 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.date-4 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-17 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-18 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-19 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.date-5 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-20 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-21 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.number-22 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.date-6 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.date-7 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.agent {
+  flex: 1;
+  position: relative;
+}
+
+.flex-col-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.frame-34481-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.matches-3 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text {
+  position: relative;
+  width: fit-content;
+}
+
+.x4th-nationality-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  color: #fff;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  width: 229px;
+  height: 63px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+
+  position: absolute;
+  width: 253px;
+  height: 79px;
+  left: 0px;
+  top: 24px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.08)
+    ),
+    #1a1e2c;
+  border-radius: 8px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 999;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiplink {
+  visibility: hidden;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  letter-spacing: -0.01em;
+  padding: 8px 12px;
+
+  position: absolute;
+  width: 130px;
+  left: 0px;
+  top: 24px;
+  margin-bottom: 4px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.08)
+    ),
+    #1a1e2c;
+  border-radius: 8px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 999;
+}
+
+.tooltip:hover .tooltiplink {
+  visibility: visible;
+}
+
+.tooltip:hover .tooltiplink a {
+  color: white;
+}
+
+.tooltip:hover .tooltiplink a:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.14),
+      rgba(255, 255, 255, 0.14)
+    ),
+    #1a1e2c;
+}
+
+.non-goalkeeper .emojioneflag-for-argentina-3 {
+  width: 24px !important;
+}
+img.emojioneflag-for-argentina-3 {
+  border-radius: 50% !important;
+}
+img.flag-square {
+  border-radius: 50%;
+  width: 24px !important;
+}
+
+img.flag-square-1 {
+  width: 24px;
+  border-radius: 50%;
+}
+img.lithuania-lt {
+  width: 24px;
+  border-radius: 50%;
+}
+.non-goalkeeper .current-season {
+  height: 358px !important;
+}
+
+/****************18-04-2-23******************/
+.current_season_flex {
+  display: flex;
+  /*     flex-wrap: wrap; */
+}
+
+.current_season {
+  flex: 1 0 0;
+}
+
+ul.current_season_list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.current_season_head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 48px;
+}
+
+.current_season_img {
+  max-width: 35px;
+  margin-right: 10px;
+}
+
+.current_season_img img {
+  max-width: 100%;
+}
+
+.current_list {
+  display: flex;
+  align-items: center;
+}
+
+.current_list_img {
+  max-width: 25px;
+  margin-right: 10px;
+}
+
+.current_list_img img {
+  max-width: 100%;
+}
+.current_list h4 span {
+  background-color: #e7b400;
+  border-radius: 2px;
+  height: 18px;
+  left: 6px;
+  position: relative;
+  top: 3px;
+  width: 12px;
+  display: inline-block;
+}
+.current_list h4 span {
+  background-color: #e7b400;
+  border-radius: 2px;
+  height: 18px;
+  left: -10px;
+  position: relative;
+  top: 3px;
+  width: 12px;
+  display: inline-block;
+}
+.curr_red .current_list h4 span {
+  background-color: #e13a36 !important;
+}
+.current_season_flex {
+  align-items: flex-start;
+  background-color: var(--mirage);
+  display: flex;
+  padding: 24px;
+  position: relative;
+  width: 1200px;
+}
+.current_season_head h3,
+.current_season_headd h3 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400 !important;
+  font-family: "Poppins";
+  margin-bottom: 15px;
+}
+.current_season_head h3 {
+  margin-bottom: 0;
+  /* line-height: 53px; */
+}
+.current_list h4 {
+  font-weight: 400;
+  font-family: "Poppins";
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.current_season_flex.six_cards .current_season:first-child {
+  /* flex: 3 0 0; */
+  flex: 6 0 0;
+}
+.current_season_flex.six_cards .current_season:nth-of-type(3) {
+  flex: 1.7 0 0;
+}
+.current_season_flex.six_cards .current_season:nth-of-type(4) {
+  flex: 1.7 0 0;
+}
+.current_season_flex.six_cards .current_season:nth-of-type(5) {
+  flex: 1.7 0 0;
+}
+.current_season_flex.six_cards .current_season:nth-of-type(6) {
+  flex: 1.5 0 0;
+}
+.current_season_flex.six_cards .current_season:nth-of-type(2) {
+  flex: 1.7 0 0;
+}
+.current_season_flex.six_cards .current_season {
+  flex: 0.8 0 0;
+}
+
+.current_season_flex.five_cards .current_season:first-child {
+  /* flex: 3 0 0; */
+  flex: 3.3 0 0;
+}
+.current_season_flex.five_cards .current_season.alignment_settings {
+  display: none;
+}
+.current_season_flex.four_cards .current_season:first-child {
+  flex: 3 0 0;
+}
+/* .current_season_flex.four_cards .current_season:last-child {
+  flex: 1.5 0 0;
+} */
+.current_season_flex.four_cards.premium_cards .current_season:first-child {
+  flex: 3 0 0;
+}
+.current_season_flex.four_cards.premium_cards .current_season:last-child {
+  flex: 1 0 0;
+}
+/* img.qute_green {
+  background: #56b694;
+} */
+.claim-this-profile {
+  font-size: 15px !important;
+}
+.tooltip.tooltip_dots {
+  opacity: unset;
+  position: unset;
+}
+.tooltip.tooltip_dots {
+  opacity: unset;
+  position: unset;
+}
+.current_season:first-child .current_season_head h3 {
+  font-size: 22px;
+  font-weight: 500 !important;
+}
+ul.append_li li:last-child {
+  display: none;
+}
+.data > div {
+  flex: 1 0 0;
+}
+.current_season:first-child ul.current_season_list .current_list h4 {
+  font-weight: 600;
+}
+.line-10,
+.line-67 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.current_season.alignment_settings .current_season_head h3 {
+  font-size: 0;
+}
+
+.current_season.alignment_settings ul.current_season_list li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.current_season.alignment_settings .current_season_list.append_li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.current_season.alignment_settings .current_season_list.append_li:last-child {
+  border-bottom: none;
+}
+.social_link-icons span.tooltiptext {
+  visibility: hidden;
+  width: 126px;
+  height: unset;
+  justify-content: unset;
+  flex-direction: column-reverse;
+}
+.social_link-icons
+  .addtoany_list.a2a_kit_size_32
+  a:not(.addtoany_special_service)
+  > span {
+  height: 26px;
+  line-height: 26px;
+  width: 26px;
+}
+.social_link-icons .addtoany_list.a2a_kit_size_32 a {
+  display: inline-block;
+}
+.social_link-icons:hover span.tooltiptext {
+  visibility: visible;
+}
+.social_link-icons .copy_txt_main a {
+  color: #fff;
+  font-size: 14px;
+}
+.social_link-icons .copy_txt_main button {
+  border: gainsboro;
+  background: no-repeat;
+  color: #fff;
+}
+.coma_gap {
+  gap: 0;
+}
+.coma_gap span {
+  margin-right: 6px;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g filter="url(#filter-1)" id="plus-circle">
+                <g>
+                    <path d="M10,20.00021 C15.5228,20.00021 20,15.5231 20,10.00021 C20,4.47737 15.5228,0.00021 10,0.00021 C4.47715,0.00021 0,4.47737 0,10.00021 C0,15.5231 4.47715,20.00021 10,20.00021 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+            <g id="Group" transform="translate(6.000000, 6.000210)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                <line x1="4" y1="1.24344979e-14" x2="4" y2="7.99999" id="Path"></line>
+                <line x1="0" y1="3.99999" x2="8" y2="3.99999" id="Path"></line>
+            </g>
+        </g>
+    </g>
+</svg>

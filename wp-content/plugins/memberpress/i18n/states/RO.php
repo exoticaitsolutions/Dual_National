@@ -1,0 +1,50 @@
+<?php
+/**
+ * Romania states
+ */
+$states['Romania'] = array(
+  'Alba' => _x('Alba', 'ui', 'memberpress'),
+  'Arad' => _x('Arad', 'ui', 'memberpress'),
+  'Arges' => _x('Arges', 'ui', 'memberpress'),
+  'Bacau' => _x('Bacau', 'ui', 'memberpress'),
+  'Bihor' => _x('Bihor', 'ui', 'memberpress'),
+  'Bistrita-Nasaud' => _x('Bistrita-Nasaud', 'ui', 'memberpress'),
+  'Botosani' => _x('Botosani', 'ui', 'memberpress'),
+  'Braila' => _x('Braila', 'ui', 'memberpress'),
+  'Brasov' => _x('Brasov', 'ui', 'memberpress'),
+  'Bucuresti' => _x('Bucuresti', 'ui', 'memberpress'),
+  'Buzau' => _x('Buzau', 'ui', 'memberpress'),
+  'Calarasi' => _x('Calarasi', 'ui', 'memberpress'),
+  'Caras-Severin' => _x('Caras-Severin', 'ui', 'memberpress'),
+  'Cluj' => _x('Cluj', 'ui', 'memberpress'),
+  'Constanta' => _x('Constanta', 'ui', 'memberpress'),
+  'Covasna' => _x('Covasna', 'ui', 'memberpress'),
+  'Dimbovita' => _x('Dimbovita', 'ui', 'memberpress'),
+  'Dolj' => _x('Dolj', 'ui', 'memberpress'),
+  'Galati' => _x('Galati', 'ui', 'memberpress'),
+  'Gorj' => _x('Gorj', 'ui', 'memberpress'),
+  'Giurgiu' => _x('Giurgiu', 'ui', 'memberpress'),
+  'Harghita' => _x('Harghita', 'ui', 'memberpress'),
+  'Hunedoara' => _x('Hunedoara', 'ui', 'memberpress'),
+  'Ialomita' => _x('Ialomita', 'ui', 'memberpress'),
+  'Iasi' => _x('Iasi', 'ui', 'memberpress'),
+  'Ilfov' => _x('Ilfov', 'ui', 'memberpress'),
+  'Maramures' => _x('Maramures', 'ui', 'memberpress'),
+  'Mehedinti' => _x('Mehedinti', 'ui', 'memberpress'),
+  'Mures' => _x('Mures', 'ui', 'memberpress'),
+  'Neamt' => _x('Neamt', 'ui', 'memberpress'),
+  'Olt' => _x('Olt', 'ui', 'memberpress'),
+  'Prahova' => _x('Prahova', 'ui', 'memberpress'),
+  'Salaj' => _x('Salaj', 'ui', 'memberpress'),
+  'Satu Mare' => _x('Satu Mare', 'ui', 'memberpress'),
+  'Sibiu' => _x('Sibiu', 'ui', 'memberpress'),
+  'Suceava' => _x('Suceava', 'ui', 'memberpress'),
+  'Teleorman' => _x('Teleorman', 'ui', 'memberpress'),
+  'Timis' => _x('Timis', 'ui', 'memberpress'),
+  'Tulcea' => _x('Tulcea', 'ui', 'memberpress'),
+  'Vaslui' => _x('Vaslui', 'ui', 'memberpress'),
+  'Vilcea' => _x('Vilcea', 'ui', 'memberpress'),
+  'Vrancea' => _x('Vrancea', 'ui', 'memberpress')
+);
+
+?>

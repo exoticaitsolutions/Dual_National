@@ -1,0 +1,341 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+ *{
+    padding: 0;
+    margin: 0;
+ }
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+p {margin: 0px;}
+.profile-img img{
+    max-width: 84px;
+    height: 84px;
+    width: 100%;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+.profile-content h2{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.profile-box{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+}
+#profile{
+    background-color: #24293d;
+    padding: 30px 0px 18px 0px;
+}
+.profile-section{
+    background-color: #1A1E2C;
+    padding: 20px 18px;
+    background-image:url('../images/mask.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.value-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+}
+.value-box p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.value-box span{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+}
+.value-img img{
+    width: 100%;
+    max-width: 48px;
+}
+.value-content{
+    padding-left: 10px;
+}
+.values{
+    display: flex;
+    gap: 55px;
+}
+.share-icon i{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.share-icon{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+.verified-logo{
+    width: 100%;
+    max-width: 18px;
+}
+.profile-content h2 p{
+    display: inline-block;
+    position: relative;
+}
+.shirt-logo{
+    width: 100%;
+    max-width: 12px;
+    padding: 0px 5px 0px 10px;
+    position: relative;
+}
+.profile-content h2 span{
+    font-size: 12px;
+    position: absolute;
+    top: 7px;
+}
+.profile-content h2 p:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    color:  rgba(255, 255, 255, 0.7);
+    left: 2px;
+    background-color:  rgba(255, 255, 255, 0.7);
+    top: 5px;
+}
+.player-info{
+    background-color: #1a1e2c;
+    padding: 20px 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.player-info h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.nationality h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.player-info-box .birth-info{
+width: 15%;
+float: left;
+}
+.player-info-box .physical-info{
+    width: 40%;
+    float: left;
+    display: flex;
+    gap: 55px;
+}
+.player-info-box .position{
+    width: 40%;
+    float: left;
+}
+.clear:before,.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.player-info-box span{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.player-info-box p{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.text-img{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nationality-box{
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+}
+.nationality span{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.nationality p{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nationality{
+    background-color: #1a1e2c;
+    padding: 20px 18px 0px;
+}
+.nationality-wrap{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 14px;
+}
+.border-none{
+    border: 0;
+}
+.plus-icon{
+    margin-bottom: -6px;
+    margin-right: 5px;
+}
+#current-season{
+    background-color: #24293d;
+    padding: 0px 0px 18px 0px;
+}
+#current-season .sessions-wrap{
+    background-color: #1a1e2c;;
+    padding: 20px 18px 4px;
+
+}
+#current-season .d-flex{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.sessions-left h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.session-tittle-logo img{
+    width: 100%;
+    max-width: 35px;
+}
+#current-season .sessions-left{
+    width: 38%;
+    float: left;
+    margin-right: 2%;
+}
+#current-season .sessions-right{
+    width: 60%;
+    float: left;
+}
+.sessions-right li{
+    list-style: none;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.sessions-right ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.gapping{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.sessions-wrap h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.border-dv{
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0px 20px;
+}
+.p-0{
+    padding: 0 !important;
+}
+.session-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pb-0{
+    padding-bottom: 0px !important;
+}
+.ul-flex{
+    display: flex;
+    align-items: self-start;
+    gap: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .value-box p, .player-info-box p, .sessions-right li, .sessions-wrap h3{
+        font-size: 13px;
+    }
+    .value-box span{
+        font-size: 10px;
+    }
+    .profile-content h2, .sessions-left h2, .nationality h2{
+        font-size: 18px;
+    }
+    .img-dv img{
+        width: 100%;
+        max-width: 35px;
+    }
+    .value-img img {
+        width: 100%;
+        max-width: 35px;
+    }
+    .profile-img img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .player-info-box .physical-info{
+        gap: 40px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .profile-box{
+        display: block;
+    }
+    .sessions-right ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      #current-season .sessions-right, #current-season .sessions-left {
+        width: 100%;
+        float: left;
+      }
+      .session-second{
+        display: block;
+      }
+      .mobile-clear:before, .mobile-clear:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .value-outer-dv{
+        width: 50%;
+        float: left;
+    }
+    .values{
+        display: block;
+    }
+    .justify-mbl{
+        justify-content: center;
+    }
+}

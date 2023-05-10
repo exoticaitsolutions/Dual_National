@@ -1,0 +1,841 @@
+/* screen - non-goalkeeper */
+
+.non-goalkeeper {
+  align-items: center;
+  background-color: #24293d;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 1540px;
+  padding: 40.0px 0;
+  width: 1680px;
+}
+
+.non-goalkeeper .player-container {
+  background-color: var(--mirage);
+  position: relative;
+  width: 1200px;
+}
+
+.non-goalkeeper .header {
+  align-items: center;
+  background-color: transparent;
+  background-image: url(../img/header-background.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 146px;
+  justify-content: flex-start;
+  min-width: 1200px;
+  padding: 0 24px;
+  width: auto;
+}
+
+.non-goalkeeper .player-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .name {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .number {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .frame-34729 {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .frame-34729-item {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .name-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+}
+
+.non-goalkeeper .competition-logo {
+  background-color: var(--white);
+  border-radius: 8px;
+  height: 46px;
+  min-width: 46px;
+  overflow: hidden;
+  position: relative;
+}
+
+.non-goalkeeper .image-107 {
+  height: 38px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 30px;
+}
+
+.non-goalkeeper .ligue-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .x40m {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .date {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .flex-col-1 {
+  align-items: flex-end;
+  gap: 32px;
+  margin-bottom: 2.0px;
+  margin-left: 150px;
+  min-height: 96px;
+  width: 200px;
+}
+
+.non-goalkeeper .player-info-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .player-info-2 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.non-goalkeeper .data-1 {
+  height: 46px;
+  min-width: 1152px;
+  position: relative;
+}
+
+.non-goalkeeper .birth {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .birth-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .age {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 87px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .age-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .rosario-argentina {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-shadow: 0px 4px 8px #0000001f;
+  width: fit-content;
+}
+
+.non-goalkeeper .position {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 80px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .position-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .right-winger-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .nationality {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.non-goalkeeper .nationality-1 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.non-goalkeeper .place {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-shadow: 0px 4px 8px #0000001f;
+  width: fit-content;
+}
+
+.non-goalkeeper .debut-1 {
+  line-height: normal;
+}
+
+.non-goalkeeper .address {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-shadow: 0px 4px 8px #0000001f;
+  width: fit-content;
+}
+
+.non-goalkeeper .intl-goals {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.non-goalkeeper .address-1 {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-shadow: 0px 4px 8px #0000001f;
+  width: fit-content;
+}
+
+.non-goalkeeper .emojioneflag-for-spain {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.non-goalkeeper .place-1 {
+  letter-spacing: -0.16px;
+  text-shadow: 0px 4px 8px #0000001f;
+}
+
+.non-goalkeeper .emojioneflag-for-france {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.non-goalkeeper .place-2 {
+  letter-spacing: -0.16px;
+  text-shadow: 0px 4px 8px #0000001f;
+}
+
+.non-goalkeeper .add {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-shadow: 0px 4px 8px #0000001f;
+  width: fit-content;
+}
+
+.non-goalkeeper .plus-circle-1 {
+  height: 24px;
+  margin-left: -5306.00px;
+  margin-top: -136.00px;
+  min-width: 24px;
+  position: relative;
+}
+
+.non-goalkeeper .add-1 {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-shadow: 0px 4px 8px #0000001f;
+  width: fit-content;
+}
+
+.non-goalkeeper .name-4 {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1.00px;
+  text-shadow: 0px 4px 8px #0000001f;
+}
+
+.non-goalkeeper .place-3 {
+  letter-spacing: 0;
+}
+
+.non-goalkeeper .text-20 {
+  letter-spacing: -0.16px;
+  line-height: normal;
+  margin-top: -1.00px;
+  text-shadow: 0px 4px 8px #0000001f;
+}
+
+.non-goalkeeper .current-season {
+  background-color: var(--mirage);
+  height: 225px;
+  position: relative;
+  width: 1200px;
+}
+
+.non-goalkeeper .frame-34366 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 24px;
+  position: relative;
+  top: 24px;
+  width: 1152px;
+}
+
+.non-goalkeeper .heading-1 {
+  height: 33px;
+  min-width: 1151.93px;
+  position: relative;
+}
+
+.non-goalkeeper .frame-87-1 {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+  left: 512px;
+  position: absolute;
+  top: 6px;
+  width: fit-content;
+}
+
+.non-goalkeeper .matches {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.non-goalkeeper .goals {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.non-goalkeeper .assists {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.non-goalkeeper .color {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-right: -3.00px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.non-goalkeeper .color-1 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.non-goalkeeper .line-63 {
+  height: 1px;
+  margin-left: -4283.93px;
+  margin-top: -377.00px;
+  min-width: 12px;
+  object-fit: cover;
+  position: relative;
+}
+
+.non-goalkeeper .ligue-1-1 {
+  height: 48px;
+  min-width: 1151.93px;
+  position: relative;
+}
+
+.non-goalkeeper .competition-logo-1 {
+  background-color: var(--white);
+  border-radius: 8px;
+  height: 48px;
+  min-width: 48px;
+  overflow: hidden;
+  position: relative;
+}
+
+.non-goalkeeper .image-107-1 {
+  height: 40px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 31px;
+}
+
+.non-goalkeeper .ligue-1-2 {
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.non-goalkeeper .text-21 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .text-22 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .text-23 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .line-63-1 {
+  margin-left: -4283.93px;
+  margin-top: -426.00px;
+}
+
+.non-goalkeeper .line-67-1 {
+  align-self: stretch;
+}
+
+.non-goalkeeper .coupe-de-france {
+  height: 48px;
+  min-width: 1151.93px;
+  position: relative;
+}
+
+.non-goalkeeper .image-291 {
+  height: 48px;
+  min-width: 48px;
+  object-fit: cover;
+  position: relative;
+}
+
+.non-goalkeeper .coupe-de-france-1 {
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.non-goalkeeper .text-24 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .text-25 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .text-26 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .line-63-2 {
+  margin-left: -4283.93px;
+  margin-top: -506.00px;
+}
+
+.non-goalkeeper .club-history {
+  align-items: flex-start;
+  background-color: var(--mirage);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .heading {
+  height: 33px;
+  margin-right: -1.93px;
+  min-width: 1153.93px;
+  position: relative;
+}
+
+.non-goalkeeper .frame-87 {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+  left: 520px;
+  position: absolute;
+  top: 7px;
+  width: fit-content;
+}
+
+.non-goalkeeper .frame-341-1 {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 120px;
+}
+
+.non-goalkeeper .line-63-3 {
+  margin-left: -4299.93px;
+  margin-top: -619.00px;
+}
+
+.non-goalkeeper .psg {
+  height: 48px;
+  min-width: 1151.93px;
+  position: relative;
+}
+
+.non-goalkeeper .group-22 {
+  height: 48px;
+  min-width: 48px;
+  position: relative;
+}
+
+.non-goalkeeper .name-5 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .text-27 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .line-63-4 {
+  margin-left: -4299.93px;
+  margin-top: -671.00px;
+}
+
+.non-goalkeeper .fcb {
+  height: 48px;
+  min-width: 1151.93px;
+  position: relative;
+}
+
+.non-goalkeeper .group-22-1 {
+  height: 48.05px;
+  margin-bottom: -0.02px;
+  margin-left: -0.03px;
+  margin-top: -0.02px;
+  min-width: 48.05px;
+  position: relative;
+}
+
+.non-goalkeeper .fc-barcelona {
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.non-goalkeeper .text-28 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .line-63-5 {
+  margin-left: -4299.93px;
+  margin-top: -751.00px;
+}
+
+.non-goalkeeper .national-team-history {
+  align-items: flex-start;
+  background-color: var(--mirage);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  position: relative;
+  width: 1200px;
+}
+
+.non-goalkeeper .debut-2 {
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .line-63-6 {
+  margin-left: -4299.93px;
+  margin-top: -860.00px;
+}
+
+.non-goalkeeper .data-2 {
+  height: 48px;
+  min-width: 1151.93px;
+  position: relative;
+}
+
+.non-goalkeeper .emojioneflag-for-argentina {
+  height: 48px;
+  min-width: 48px;
+  position: relative;
+}
+
+.non-goalkeeper .text-29 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .line-63-7 {
+  margin-left: -4299.93px;
+  margin-top: -912.00px;
+}
+
+.non-goalkeeper .line-6 {
+  align-self: stretch;
+  height: 1px;
+  min-width: 1152px;
+  object-fit: cover;
+  position: relative;
+}
+
+.non-goalkeeper .data-3 {
+  height: 48px;
+  min-width: 1151.93px;
+  position: relative;
+}
+
+.non-goalkeeper .text-30 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .line-63-8 {
+  margin-left: -4299.93px;
+  margin-top: -992.00px;
+}
+
+.non-goalkeeper .data-4 {
+  height: 48px;
+  min-width: 1151.93px;
+  position: relative;
+}
+
+.non-goalkeeper .text-31 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.non-goalkeeper .line-63-9 {
+  margin-left: -4299.93px;
+  margin-top: -1072.00px;
+}
+
+.non-goalkeeper .argentina {
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.non-goalkeeper .assists-3 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.non-goalkeeper .date-8 {
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .debut-3 {
+  letter-spacing: 0;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .emojioneflag-for-argentina-3 {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.non-goalkeeper .frame-34153-4 {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .goals-3 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.non-goalkeeper .icon-1 {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.non-goalkeeper .icon-assist-7 {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.non-goalkeeper .icon-match-7 {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.non-goalkeeper .line-63-10 {
+  height: 1px;
+  min-width: 12px;
+  object-fit: cover;
+  position: relative;
+}
+
+.non-goalkeeper .line-67-3 {
+  height: 1px;
+  min-width: 1152px;
+  object-fit: cover;
+  position: relative;
+}
+
+.non-goalkeeper .material-symbolstimer-outline-rounded-7 {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.non-goalkeeper .name-6 {
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .number-23 {
+  letter-spacing: 0;
+  position: relative;
+  width: fit-content;
+}
+
+.non-goalkeeper .place-4 {
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
